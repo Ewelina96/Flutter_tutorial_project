@@ -7,8 +7,7 @@ void main() => runApp(
           backgroundColor: Colors.blueGrey[200],
           body: Center(
             child: Image(
-              image: NetworkImage(
-                  'https://miro.medium.com/max/875/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg'),
+              image: AssetImage('images/diamond.png'),
             ),
           ),
           appBar: AppBar(
